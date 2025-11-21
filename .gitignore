@@ -1,0 +1,33 @@
+# Binaries
+endchaos
+endchaos.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output
+results/
+cache/
+*.ndjson
+*.txt
+*.json
+*.db
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
