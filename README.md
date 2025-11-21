@@ -8,7 +8,7 @@ One command. Every endpoint. Full verb matrix. Crowdsourced intelligence.
 endchaos uber.com --full --contribute
 # → 187,432 endpoints with methods, tech, titles, interesting flags
 # → automatically contributes to central database
-
+```
 ## EndChaos combines:
 
 	- All passive sources (Wayback, CommonCrawl, URLScan, OTX, Chaos, crt.sh)
@@ -20,7 +20,6 @@ endchaos uber.com --full --contribute
 	- Crowdsourced endpoint intelligence (opt-in)
 
 This is the tool that ends the "8-hour recon" era.
-
 Status: v0.1.0 shipping November 28, 2025
 Built on: ProjectDiscovery tools + blood, sweat, and hatred for slow recon
 
@@ -29,6 +28,7 @@ Built on: ProjectDiscovery tools + blood, sweat, and hatred for slow recon
 go install -v github.com/endchaos-project/endchaos/cmd/endchaos@latest
 ```
 or download binary from Releases
+
 ## Quick start
 ```bash
 endchaos hackerone.com --full --contribute
